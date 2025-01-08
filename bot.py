@@ -64,5 +64,4 @@ def download_videos(message):
     except Exception as e:
         bot.send_message(chat_id, f"Сталася помилка: {e}")
 
-print("Бот працює...")
-bot.polling()
+
